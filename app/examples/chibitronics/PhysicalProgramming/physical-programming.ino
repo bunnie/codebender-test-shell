@@ -1,11 +1,11 @@
 /*
   Physical programming demo (default for LtC stickers)
 
-  Tap patterns onto buttons A1 or A3 to make the led on A2 or RGB LED flash.
+  Tap patterns onto buttons A2 or A0 to make the led on A1 or RGB LED flash.
   Pattern can be up to 5 seconds long and is stored in nonvolatile memory (persistent through power outage).
 
   Pattern is actually stored as an analog value, so if one were to connect
-  a variable voltage source to pins A1 or A3, the pattern stored is analog.
+  a variable voltage source to pins A2 or A0, the pattern stored is analog.
 
   bunnie - June 2 2016
   
